@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trainee</title>
+    <link rel="stylesheet" href="dist/trainee.css">
 </head>
 <body>
-    
+    <h1 class="trainee">Trainees</h1>
+    <form name="nwe-trainee" class="flow" >
+        <h2>Add your application to get clients</h2>
+        <div class="form-input">
+            <label for="name">Full name </label>
+            <input type="text" id="name" name="name" />
+        </div>
+        <div>
+        <div class="form-input">
+            <label for="nunber-of-meetings">Number of meetings </label>
+            <input type="number" id="nunber-of-meetings" name="nunber-of-meetings" required />
+        
+        <div class="form-input">
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" />
+        </div>
+
+        <div class="form-input">
+            <label for="number-of-traines">number of requsted Trainees</label>
+            <input type="number" id="number-of-traines" name="number-of-traines" required />
+        </div>
+
+        <div class="form-input">
+            <label for="filed-of-prctis">License Type</label>
+            <select name="filed-of-prctis" id="filed-of-prctis">
+                <option value="social-work">social work</option>
+                <option value="masseur">masseur</option>
+                <option value="fitness-instructor" selected>fitness instructor</option>
+            </select>
+        </div>
+        <div class="form-input">
+            <label for="practic-zone">Practic zone</label>
+            <select name="practic-zone" id="practic-zone">
+                <option value="north">North</option>
+                <option value="center" selected>center</option>
+                <option value="southr">south</option>
+            </select>
+        </div>
+        
+         <div class="form-input">
+           <label for="total-price">Total price for the training</label>
+           <input type="text" id="total-price" name="total-price"/>
+        </div>
+        <button type="submit">Add</button>
+    </form>
+</main>
+    <script src="dist/trainee.js"></script>
 </body>
 </html>
