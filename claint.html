@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1 class="clients">Trainees</h1>
-    <form name="nwe-client" class="flow" >
+    <form name="new-client" class="flow" >
         <h2>Add your application to get trainee</h2>
         <div class="form-input">
             <label for="name">Full name </label>
@@ -17,13 +17,13 @@
         <div>
         <div class="form-input">
             <label for="gender">Male </label>
-            <input type="checkbox" id="gender" name="gender" required />
+            <input type="checkbox" id="male" name="male" value="male" />
             <label for="gender">Female </label>
-            <input type="checkbox" id="gender" name="gender" required />
+            <input type="checkbox" id="female" name="Female" value="female"  />
         
         <div class="form-input">
             <label for="email">email</label>
-            <input type="email" id="email" name="email" />
+            <input type="email" id="email" name="email" required/>
         </div>
 
         <div class="form-input">
@@ -32,8 +32,8 @@
         </div>
 
         <div class="form-input">
-            <label for="filed-of-prctis">Filed of prctis</label>
-            <select name="filed-of-prctis" id="filed-of-prctis">
+            <label for="filed-of-practis">Filed of prctis</label>
+            <select name="filed-of-practis" id="filed-of-practis">
                 <option value="social-work">social work</option>
                 <option value="masseur">masseur</option>
                 <option value="fitness-instructor" selected>fitness instructor</option>
@@ -50,6 +50,6 @@
         
         <button type="submit">Make contact</button>
     </form>
-    
+    <script src="dist/claint.js"></script>
 </body>
 </html>
