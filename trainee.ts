@@ -38,6 +38,7 @@ else {
         });
 
         console.log(trainees);
+        localStorage.setItem("shai","test");
         
     });
 }

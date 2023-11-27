@@ -17,6 +17,7 @@ else {
             totalPrice: getRequiredString(formData, "total-price")
         });
         console.log(trainees);
+        localStorage.setItem("shai", "test");
     });
 }
 function getString(formData, key) {
